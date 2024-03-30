@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "packages": [
+    {
+      "package": "moment",
+      "version": "2.24.0",
+      "urls": [
+        "https://g.alicdn.com/mylib/moment/2.24.0/min/moment.min.js"
+      ],
+      "library": "moment"
+    },
+    {
+      "package": "lodash",
+      "version": "4.6.1",
+      "library": "_",
+      "urls": [
+        "https://g.alicdn.com/platform/c/lodash/4.6.1/lodash.min.js"
+      ]
+    },
+    {
+      "title": "fusion组件库",
+      "package": "@alifd/next",
+      "version": "1.24.18",
+      "urls": [
+        "https://g.alicdn.com/code/lib/alifd__next/1.24.18/next.min.css",
+        "https://g.alicdn.com/code/lib/alifd__next/1.24.18/next-with-locales.min.js"
+      ],
+      "library": "Next"
+    }
+  ],
+  "components": [
+  ],
+  "sort": {
+
+  },
+  "groupList": [
+  ],
+  "ignoreComponents": {}
+}

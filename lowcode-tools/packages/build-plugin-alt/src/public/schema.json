@@ -1,0 +1,27 @@
+{
+  "componentName": "Page",
+  "id": "node_dockcviv8fo1",
+  "props": {
+    "ref": "outerView",
+    "style": {
+      "height": "100%"
+    }
+  },
+  "fileName": "/",
+  "dataSource": {
+    "list": []
+  },
+  "state": {
+  },
+  "css": "body {font-size: 12px;} .button{width:100px;color:#ff00ff}",
+  "lifeCycles": {
+  },
+  "methods": {
+    "testFunc": {
+      "type": "JSFunction",
+      "value": "function() {\n    console.log('test func');\n  }"
+    }
+  },
+  "children": [
+  ]
+}

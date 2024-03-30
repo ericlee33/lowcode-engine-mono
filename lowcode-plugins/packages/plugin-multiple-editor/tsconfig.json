@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "rootDir": "./src",
+    "baseUrl": "./",
+    "outDir": "./es",
+    "moduleResolution": "node",
+    "declaration": true,
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "module": "es2020",
+    "target": "ESNext",
+    "jsx": "react",
+    "paths": {
+      "@/*": ["./src/*"],
+      "utils": ["./src/utils"],
+      "utils/*": ["./src/utils/*"],
+      "types": ["./src/types"],
+      "types/*": ["./src/types/*"],
+      "react": [ "./node_modules/@types/react" ]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["src/dev-config"]
+}
